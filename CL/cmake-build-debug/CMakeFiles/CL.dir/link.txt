@@ -1,0 +1,3 @@
+"D:\SoftWareN\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CL.dir/objects.a
+D:\Software\mingw64\bin\ar.exe cr CMakeFiles\CL.dir/objects.a @CMakeFiles\CL.dir\objects1.rsp
+D:\Software\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\CL.dir/objects.a -Wl,--no-whole-archive -o CL.exe -Wl,--out-implib,libCL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CL.dir\linklibs.rsp
