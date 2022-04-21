@@ -1,0 +1,15 @@
+# CMake 最低版本号要求
+
+cmake_minimum_required(VERSION 2.8.3)
+
+# 项目信息
+
+project(ethercat_rtt)
+
+add_subdirectory(include)
+
+# 指定生成目标
+
+add_executable(ethercat_rtt main.c ethercat_igh.c)
+
+target_link_libraries(ethercat_rtt ecrt)
